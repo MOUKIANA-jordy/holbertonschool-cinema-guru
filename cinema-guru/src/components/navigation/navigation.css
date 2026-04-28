@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #111;
+  color: white;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-left img {
+  border-radius: 50%;
+}
+
+.nav-right {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
