@@ -1,0 +1,26 @@
+.tag {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tag.selected {
+  background: #333;
+  color: white;
+}
+
+.movie-card {
+  border: 1px solid #eee;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
